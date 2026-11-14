@@ -1,7 +1,6 @@
 import express from "express";
 import Contact from "../models/Contact.js";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api/contacts`;
 const router = express.Router();
 
 // GET: Fetch all contacts

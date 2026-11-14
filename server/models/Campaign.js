@@ -1,7 +1,6 @@
 
 import mongoose from "mongoose";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api/campaigns`;
 const campaignSchema = new mongoose.Schema(
   {
     name: {

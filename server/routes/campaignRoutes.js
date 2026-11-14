@@ -6,7 +6,6 @@ import Campaign from "../models/Campaign.js";
 import Contact from "../models/Contact.js";
 
 const router = express.Router();
-const API_URL = `${import.meta.env.VITE_API_URL}/api/campaigns`;
 
 const createTransporter = () => {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
