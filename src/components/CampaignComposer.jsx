@@ -8,7 +8,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "sonner";
 
-const API_URL = "http://localhost:5001/api/campaigns/send";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/campaigns`;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function CampaignComposer({ onClose, onSaveDraft }) {

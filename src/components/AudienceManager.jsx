@@ -23,7 +23,7 @@ import { toast } from 'sonner'
 import './AudienceManager.css'
 
 // API CONFIGURATION
-const API_URL = 'http://localhost:5001/api/contacts'
+const API_URL = `${import.meta.env.VITE_API_URL}/api/contacts`;
 
 const emptyForm = {
   name: '',
